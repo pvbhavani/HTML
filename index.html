@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>HTML Elements Demonstation</h1>
+        <p>A webpage build using Basic HTML elements</p>
+    </header>
+    <hr>
+        <nav>
+            <a href="#About">About</a>|
+            <a href="#List">List</a>|
+            <a href="#Table">Table</a>|
+            <a href="#Form">Form</a>|
+            <a href="#Media">Media</a>
+        </nav>
+        <hr>
+        <main>
+        <section id="About">
+            <h2>About HTML</h2>
+            <p>HTML stands for<strong>HyperText Markup Language</strong>
+            It is used to create
+            <em>web pages</em>
+            </p>
+            <p>This Text contains
+                <b>bold,</b>
+            <i>italic,</i>
+            <u>underline,</u>
+            <mark>heighlighted,</mark>
+            <small>small,</small>
+            <del>deleted,</del>
+            and
+            <ins>inserted</ins>
+            text
+        </p>
+        <p>
+            Water formula:H
+            <sub>2</sub>
+            O
+        <br>
+            Square:x
+            <sup>2</sup>
+        </p>
+        <blockquote><q>learning HTML is the first step toward web development</q></blockquote>
+        <pre>This is preformatted text. 
+Spaces and line breaks  
+are preserved. </pre>
+
+        </section>
+        <hr>
+        <section id="List">
+            <h2>List</h2>
+            <h3>Unorder list</h3>
+            <ul>        
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVA Script</li>
+            </ul>
+            <h3>Ordered List</h3>
+            <ol>
+                <li>Learn HTML</li>
+                <li>Learn CSS</li>
+                <li>Learn Java Script</li>
+            </ol>
+            <h3>Description List</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Structure of a webpage</dd>
+                <dt>CSS</dt>
+                <dd>Styling of a webpage</dd>
+            </dl>
+        </section>
+        <hr>
+        <section id="Table">
+            <h2>Student Table</h2>
+            <table border="1">
+                <caption>Students Details</caption>
+                <tbody>
+                <tr>
+                    <th>Name</th>
+                    <th>Branch</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <th>Bhanu</th>
+                    <th>21</th>
+                    <th>A</th>
+                </tr>
+                <tr>
+                    <th>Siri</th>
+                    <th>20</th>
+                    <th>B</th>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <section id="Form">
+            <form>
+            <h2>Registration form</h2>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input tyep="email" id="email" required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="passwrod" required>
+            <br><br>
+            <lable for="age">Age:</lable>
+            <input type="number" id="age">
+            <br><br>
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob"><br><br>
+            <label>Gender</label>
+            <br>
+            <input class="inline" type="radio" id="male" name="gender" >
+            <label class="inline" for="male">Male</label>
+            <input class="inline" type="radio" id="female" name="gender" >    
+            <label class="inline"for="female">Female</label>
+            <input class="inline" type="radio" id="other" name="gender" >
+            <label class="inline"for="other">Other</label>
+            <br><br>
+            <label >Skill:</label><br>
+            <input type="checkbox" name="skill" id="HTML">
+            <label for="HTML">HTML</label>
+            <input type="checkbox" name="skill" id="CSS">
+            <label for="CSS">CSS</label>
+            <input type="checkbox" name="skill" id="Java script">
+            <label for="Java script">Java Script</label>
+            <br><br>
+            <label>Country:</label>
+            <br>
+            <select>
+                <option>India</option>
+                <option>USA</option>
+                <option>UK</option>
+            </select>
+            <br><br>
+            <label>Message:</label><br>
+            <textarea rows="5" cols="30"></textarea>
+            <br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            </form>
+        </section>
+        <hr>
+        <section id="Media">
+            <h2>Media</h2>
+            <p>Song:</p>
+            <audio controls>
+                <source src="./Oh Baby - SenSongsMp3.Co.mp3">
+            </audio>
+            <p>Video:</p>
+            <video controls width="400">
+                <source src="./ye manishike video.mp4">
+            </video>
+        </section>
+        <hr>
+        <section>
+            <h2>FAQ</h2>
+            <details>
+                <summary>
+                    what is html
+                </summary>
+                html is the standard markup language for web pages
+            </details>
+        </section>
+        <hr>
+        <footer>
+            <p>© 2026 HTML Demo page</p>
+            <address>Contact:Bhavani@gmail.com</address>
+        </footer>
+
+    </main>
+</body>
+</html>
